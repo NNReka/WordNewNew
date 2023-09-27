@@ -45,7 +45,7 @@ void review_word() {
         if (strcmp(word.meaning, input) == 0) {  
             printf("Great!\n");  
         } else {  
-            printf("Not this,but:%s\n", word.meaning);  
+            printf("Not this,you are not allowed to attend the impact,unless you remember it is:%s\n", word.meaning);  
         }
     } else {
         printf("What is----%s\n", word.meaning);  
@@ -55,7 +55,7 @@ void review_word() {
         if (strcmp(word.word, input) == 0) {  
             printf("Great!\n");  
         } else {  
-            printf("Not this,but:%s\n", word.word);  
+            printf("Not this,you are not allowed to attend the impact,unless you remember it is:%s\n", word.word);  
         }
     }
       
